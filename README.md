@@ -46,17 +46,22 @@ What happens:
 4)Alerts are displayed on screen if drowsiness is detected.
 
 Thresholds Used
+1)EAR threshold: 0.25 (for eye closure)
 
-EAR threshold: 0.25 (for eye closure)
-MAR threshold: 0.6 (for yawning)
--These thresholds can be adjusted depending on lighting and user behavior.
+2)MAR threshold: 0.6 (for yawning)
+
+These thresholds can be adjusted depending on lighting and user behavior.
 
 Future Enhancements
+
 1)Add sound or SMS alerts when drowsiness is detected.
+
 2)Combine with driver fatigue database to improve accuracy.
+
 3)Add support for multiple faces in the frame.
 
 Dependencies
-OpenCV (opencv-python)
-MediaPipe (mediapipe)
-NumPy (numpy)
+
+1)OpenCV (opencv-python)
+2)MediaPipe (mediapipe)
+3)NumPy (numpy)
